@@ -17,8 +17,14 @@ html {
     
     body {
         display: block;
-        font-family: Serif, Times New Roman, Arial;
-        background-color: #cdbfb1;
+        font-family: Serif, "Times New Roman", Arial;
+        background-color: #F5F1Ea;
         margin:1%;
         margin-bottom: 10%;
+    }
+
+    p {
+        display: block;
+        font-family: Serif, "Times New Roman", Arial;
+        color: #666973;
     }
