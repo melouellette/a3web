@@ -23,6 +23,12 @@ html {
         margin-bottom: 10%;
     }
 
+    h1 {
+        display: block;
+        font-family: Montserrat, Arial, Helvetica, sans-serif;
+        color: #8C9086
+    }
+
     p {
         display: block;
         font-family: Serif, "Times New Roman", Arial;
