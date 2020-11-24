@@ -65,7 +65,7 @@ html {
         display: none;
       }
 
-      @media screen and (max-width: 600px) {
+      @media screen and (max-width: 800px) {
         .topnav a:not(:first-child) {display: none;}
         .topnav a.icon {
           float: right;
@@ -73,13 +73,13 @@ html {
         }
       
 
-      @media screen and (max-width: 600px) {
+      /* @media screen and (max-width: 600px) {
         .topnav.responsive {position: relative;}
         .topnav.responsive a.icon {
           position: absolute;
           right: 0;
           top: 0;
-         }
+         } */
       
         .topnav.responsive a {
           float: none;
@@ -87,4 +87,4 @@ html {
           text-align: left;
         }
       }
-    }
+    /* } */
