@@ -92,6 +92,6 @@ html {
     .contact {
       width:100%;
       max-width:600px;
-      border:0;
+      border:10;
       padding:18, 10;
       }
