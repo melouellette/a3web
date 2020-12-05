@@ -89,9 +89,45 @@ html {
       }
     }
 
-    .contact {
-      width:100%;
-      max-width:600px;
-      /* border:10;
-      padding:48, 50; */
-      }
+    /* Section 1 - Email Contact Us */
+
+/* Inspired from https://www.w3schools.com/howto/howto_css_contact_section.asp */
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-top: 7px;
+  margin-bottom: 15px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: rgb(113,222,125);                              /* Matching the green part of the logo color */
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: rgb(95,186,105);                              /* Picking a darker shade of green for hover */
+}
+  
+/* Style the container/contact section */     
+.Section-1 {
+  margin: 0 auto;
+  text-align: left;
+  color: #333;
+  background-color: white;
+  border-radius: 5px;
+  padding: 15px;
+  top: 10px;
+  max-width: 800px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  overflow: overlay;
+}  
