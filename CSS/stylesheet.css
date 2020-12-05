@@ -107,7 +107,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: rgb(113,222,125);                              /* Matching the green part of the logo color */
+  background-color: #555;                              /* Matching the green part of the logo color */
   color: white;
   padding: 12px 20px;
   border: none;
