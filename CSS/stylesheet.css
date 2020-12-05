@@ -107,7 +107,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: #555;                              /* Matching the green part of the logo color */
+  background-color: #8C9086;                              /* Matching the green part of the logo color */
   color: white;
   padding: 12px 20px;
   border: none;
@@ -115,7 +115,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: rgb(95,186,105);                              /* Picking a darker shade of green for hover */
+  background-color: #555;                              /* Picking a darker shade of green for hover */
 }
   
 /* Style the container/contact section */     
