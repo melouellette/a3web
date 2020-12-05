@@ -68,7 +68,7 @@ html {
       @media screen and (max-width: 1450px) {
         .topnav a:not(:first-child) {display: none;}
         .topnav a.icon {
-          float: right;
+          float: left;
           display: block;
         }
       
