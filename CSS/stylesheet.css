@@ -1,39 +1,76 @@
-
+/* CSS for body, headings, and paragraphs by Melanie Ouellette*/
 html {
+display: block;
+}
+
+head {
+    display: none;
+}
+
+@font-face {
+    font-family : 'Montserrat';
+    font-style : normal;
+    font-weight : 200;
+    font-display : swap;
+    src : local('Montserrat ExtraLight'), local('Montserrat-ExtraLight'), url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_aZA7g4.ttf) format('truetype');
+}
+
+body {
     display: block;
-    }
-    
-    head {
-        display: none;
-    }
-    
-    @font-face {
-        font-family : 'Montserrat';
-        font-style : normal;
-        font-weight : 200;
-        font-display : swap;
-        src : local('Montserrat ExtraLight'), local('Montserrat-ExtraLight'), url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_aZA7g4.ttf) format('truetype');
-    }
-    
-    body {
-        display: block;
-        font-family: Serif, "Times New Roman", Arial;
-        background-color: #F5F1Ea;
-        margin:1%;
-        margin-bottom: 10%;
-    }
+    font-family: Serif, "Times New Roman", Arial;
+    background-color: #F5F1Ea;
+    margin:1%;
+    margin-bottom: 10%;
+}
 
-    h1 {
-        display: block;
-        font-family: Montserrat, Arial, Helvetica, sans-serif;
-        color: #8C9086
-    }
+h1 {
+    display: block;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    color: #8C9086
+}
 
-    p {
-        display: block;
-        font-family: Serif, "Times New Roman", Arial;
-        color: #8C9086;
-    }
+h2 {
+  display:block;
+  font-family: Courier New, Helvetica, sans-serif;
+  color: #3a3835;
+  text-align: center;
+  font-size: 30px;
+  font-weight: normal
+}
+
+h3 {
+  display: block;
+  color: #3a3835;
+  font-family: Montserrat, Helvetica, sans-serif;
+  text-align: left;
+  font-size: 20px;
+  margin-bottom: 15px;
+  margin-top:20px;
+  margin-right: 20%;
+  margin-left: 20%;
+  font-weight: bold;
+}
+
+h4 {
+  display: block;
+  color: #3a3835;
+  font-family: Courier New, Helvetica, sans-serif;
+  text-align: left;
+  font-size: 18px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 0px;
+  font-weight: bold;
+}
+
+p {
+    display: block;
+    font-family: Serif, "Times New Roman", Arial;
+    color: #8C9086;
+}
+/* End of Section by MOuellette */
 
     .topnav {
         font-family : 'Montserrat';
