@@ -27,7 +27,7 @@ head {
 body {
     display: block;
     font-family: Serif, "Times New Roman", Arial;
-    background-color: #F5F1Ea;
+    background-color: #faf9f8;
     /*margin: 1%;
     margin-bottom: 10%;*/
     height: 100%;
@@ -39,6 +39,17 @@ h1 {
     color: #8C9086;
     text-align: center;
     margin-bottom: 15px;
+}
+
+h1.highlight {
+  display: block;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  color: #8C9086;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 h2 {
