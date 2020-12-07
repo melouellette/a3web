@@ -158,7 +158,7 @@ input[type=submit]:hover {
 /* Style the container/contact section */     
 .Section-1 {
   margin: 5px;
-  text-align: center;
+  text-align: left;
   color: #333;
   background-color: white;
   border-radius: 5px;
@@ -166,7 +166,7 @@ input[type=submit]:hover {
   top: 10px;
   max-width: 700px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  overflow: overlay;
+  overflow: auto;
 }  
 
 /* CSS for network section by Ian Wright and sourced from W3Schools*/
