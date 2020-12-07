@@ -82,6 +82,10 @@ p {
     font-family: Serif, "Times New Roman", Arial;
     color: #8C9086;
 }
+
+div.header {
+  background-image: url("images/landscape.jpg");
+}
 /* End of Section by MOuellette */
 
     .topnav {
