@@ -24,8 +24,6 @@ head {
     src : local('Montserrat ExtraLight'), local('Montserrat-ExtraLight'), url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_aZA7g4.ttf) format('truetype');
 }
 
-
-
 body {
     display: block;
     font-family: Serif, "Times New Roman", Arial;
@@ -84,6 +82,8 @@ p {
 }
 
 header {
+  display: block;
+  text-align: right;
   background-image: url("images/landscape.jpg");
 }
 /* End of Section by MOuellette */
