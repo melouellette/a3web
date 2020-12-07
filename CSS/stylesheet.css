@@ -36,13 +36,15 @@ body {
 
 h1 {
     display: block;
-    font-family: Montserrat, Arial, Helvetica, sans-serif;
-    color: #8C9086
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    color: #8C9086;
+    text-align: center;
+    margin-bottom: 15px;
 }
 
 h2 {
   display:block;
-  font-family: Courier New, Helvetica, sans-serif;
+  font-family: "Montserrat", Helvetica, sans-serif;
   color: #3a3835;
   text-align: center;
   font-size: 30px;
@@ -52,7 +54,7 @@ h2 {
 h3 {
   display: block;
   color: #3a3835;
-  font-family: Montserrat, Helvetica, sans-serif;
+  font-family: "Montserrat", Helvetica, sans-serif;
   text-align: left;
   font-size: 20px;
   margin-bottom: 15px;
@@ -86,6 +88,7 @@ header {
   display: block;
   text-align: right;
   background-image: url("../images/landscape.jpg");
+  
 }
 /* End of Section by MOuellette */
 
