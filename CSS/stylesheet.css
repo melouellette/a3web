@@ -102,6 +102,12 @@ header {
   background-image: url("../images/landscape.jpg");
   
 }
+/* Labels for images in Index */
+.w3-black, .w3-hover-black:hover {
+  font-family : 'Montserrat';
+  color: #fff!important;
+  background-color: #8c9086!important;
+}
 /* End of Section by MOuellette */
 
     .topnav {
