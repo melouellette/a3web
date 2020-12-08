@@ -224,8 +224,8 @@ CSS and W3Schools */
 }
 
 .column3 {
-  float: left;
-  width: 33.3%;
+  float: inline-start;
+  width: 40%;
   margin-bottom: 30px;
   padding-bottom: 30px;
 }
