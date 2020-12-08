@@ -39,8 +39,7 @@ h1.highlight {
   text-align: center;
   margin-top: 5%;
   margin-bottom: 5%;
-  margin-left: 20%;
-  margin-right: 20%;
+  
 }
 h2 {
   display:block;
@@ -49,6 +48,8 @@ h2 {
   text-align: center;
   font-size: 30px;
   font-weight: normal;
+  margin-left: 20%;
+  margin-right: 20%;
   margin-bottom: 5%;
 }
 h3 {
@@ -66,7 +67,7 @@ h3 {
 h4 {
   display: block;
   color: #3a3835;
-  font-family: Courier New, Helvetica, sans-serif;
+  font-family: "Montserrat", Helvetica, sans-serif;
   text-align: center;
   font-size: 18px;
   margin-top: 0px;
@@ -74,7 +75,7 @@ h4 {
   margin-left: 20%;
   margin-right: 20%;
   padding: 0px;
-  font-weight: bold;
+  font-weight: normal;
 }
 p {
     display: block;
