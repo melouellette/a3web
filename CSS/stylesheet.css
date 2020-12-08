@@ -4,12 +4,10 @@
   padding: 0;
 }
 
-
 html {
 display: block;
 height: 100%;
 }
-
 
 
 head {
@@ -112,7 +110,8 @@ header {
     opacity: 0.60;
     text-align: center;
 }
-/* End of Section by MOuellette */
+
+/*------ End of Section by MOuellette ------- */
 
 /* Ian's section for topnav css */
 
