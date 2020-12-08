@@ -220,6 +220,16 @@ input[type=submit]:hover {
   padding: 0 8px;
 }
 
+/* CSS for habitat modeling by Shane Minor, adapted from Ian's .column1 
+CSS and W3Schools */
+.column2 {
+  float: left;
+  width: 50%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+
 /* Clear floats */
 .container::after, .row::after {
   content: "";
