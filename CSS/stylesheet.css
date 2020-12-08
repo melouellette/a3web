@@ -1,19 +1,17 @@
-/* CSS for body, headings, and paragraphs by Melanie Ouellette*/
+/* ------ CSS for body, headings, and paragraphs 
+Created by Melanie Ouellette on December 1, 2020.
+Last Modified December 7, 2020*/
 * {
   margin: 0;
   padding: 0;
 }
-
 html {
 display: block;
 height: 100%;
 }
-
-
 head {
     display: none;
 }
-
 @font-face {
     font-family : 'Montserrat';
     font-style : normal;
@@ -21,14 +19,12 @@ head {
     font-display : swap;
     src : local('Montserrat ExtraLight'), local('Montserrat-ExtraLight'), url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_aZA7g4.ttf) format('truetype');
 }
-
 body {
     display: block;
     font-family: Serif, "Times New Roman", Arial;
     background-color: #faf9f8;
     height: 100%;
 }
-
 h1 {
     display: block;
     font-family: "Montserrat", Arial, Helvetica, sans-serif;
@@ -36,7 +32,6 @@ h1 {
     text-align: center;
     margin-bottom: 15px;
 }
-
 h1.highlight {
   display: block;
   font-family: "Montserrat", Arial, Helvetica, sans-serif;
@@ -47,7 +42,6 @@ h1.highlight {
   margin-left: 20%;
   margin-right: 20%;
 }
-
 h2 {
   display:block;
   font-family: "Montserrat", Helvetica, sans-serif;
@@ -57,7 +51,6 @@ h2 {
   font-weight: normal;
   margin-bottom: 5%;
 }
-
 h3 {
   display: block;
   color: #666973;
@@ -70,7 +63,6 @@ h3 {
   margin-left: 20%;
   font-weight: bold;
 }
-
 h4 {
   display: block;
   color: #3a3835;
@@ -84,7 +76,6 @@ h4 {
   padding: 0px;
   font-weight: bold;
 }
-
 p {
     display: block;
     font-family: "Montserrat", "Times New Roman", Arial;
@@ -92,12 +83,10 @@ p {
     font-size: 16px;
     font-weight: bold;
 }
-
 header {
   display: block;
   text-align: left;
   background-image: url("../images/landscape-1802337_1920.jpg");
-  
 }
 /* Labels for images in Index */
 .w3-black, .w3-hover-black:hover {
@@ -110,7 +99,6 @@ header {
     opacity: 0.60;
     text-align: center;
 }
-
 /*------ End of Section by MOuellette ------- */
 
 /* Ian's section for topnav css */
