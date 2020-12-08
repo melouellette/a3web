@@ -97,7 +97,7 @@ p {
 
 header {
   display: block;
-  text-align: right;
+  text-align: left;
   background-image: url("../images/landscape.jpg");
   
 }
@@ -220,6 +220,16 @@ input[type=submit]:hover {
   padding: 0 8px;
 }
 
+/* CSS for habitat modeling by Shane Minor, adapted from Ian's .column1 
+CSS and W3Schools */
+.column2 {
+  float: left;
+  width: 50%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+
 /* Clear floats */
 .container::after, .row::after {
   content: "";
@@ -232,6 +242,10 @@ input[type=submit]:hover {
 
 @media screen and (max-width: 600px) {
   .column1 {
+    width: 100%;
+    display: block;
+  }
+  .column2 {
     width: 100%;
     display: block;
   }
