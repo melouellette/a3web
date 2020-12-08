@@ -37,6 +37,7 @@ h1.highlight {
   font-family: "Montserrat", Arial, Helvetica, sans-serif;
   color: #8C9086;
   text-align: center;
+  font-size: 30px;
   margin-top: 5%;
   margin-bottom: 5%;
   margin-left: 20%;
@@ -70,7 +71,7 @@ h4 {
   text-align: center;
   font-size: 18px;
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 5%;
   margin-left: 20%;
   margin-right: 20%;
   padding: 0px;
