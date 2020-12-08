@@ -107,6 +107,11 @@ header {
   color: #fff!important;
   background-color: #8c9086!important;
 }
+/*Our team position labels*/
+  .w3-opacity, .w3-hover-opacity:hover {
+    opacity: 0.60;
+    text-align: center;
+}
 /* End of Section by MOuellette */
 
     .topnav {
