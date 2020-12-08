@@ -117,6 +117,8 @@ header {
 }
 /*------ End of Section by MOuellette ------- */
 
+/* Ian's section for topnav css */
+
     .topnav {
         font-family : 'Montserrat';
         overflow: hidden;
@@ -222,6 +224,8 @@ input[type=submit]:hover {
   margin-bottom: 16px;
   padding: 0 8px;
 }
+/* End of Ian's section */
+
 
 /* CSS for habitat modeling by Shane Minor, adapted from Ian's .column1 
 CSS and W3Schools */
@@ -241,7 +245,7 @@ CSS and W3Schools */
   color: white;
 }
 
-/* Display the columns below each other instead of side by side on small screens */
+/* Ian's CSS. Display the columns below each other instead of side by side on small screens */
 
 @media screen and (max-width: 600px) {
   .column1 {
@@ -273,6 +277,7 @@ CSS and W3Schools */
   padding: 2px;
 }
 
+/* End of Ian's section */
 
 /* Footer by Kendrick */
 
