@@ -4,12 +4,10 @@
   padding: 0;
 }
 
-
 html {
 display: block;
 height: 100%;
 }
-
 
 
 head {
@@ -112,7 +110,12 @@ header {
     opacity: 0.60;
     text-align: center;
 }
-/* End of Section by MOuellette */
+
+@media (min-width: 993px)
+.w3-col.l3 {
+    width: 30%;
+}
+/*------ End of Section by MOuellette ------- */
 
     .topnav {
         font-family : 'Montserrat';
