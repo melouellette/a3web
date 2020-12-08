@@ -294,4 +294,5 @@ footer {
   margin-top: -100px;
   overflow: hidden;
   clear: both;
+  display: inline;
 }
